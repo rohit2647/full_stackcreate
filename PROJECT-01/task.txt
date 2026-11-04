@@ -1,0 +1,16 @@
+REST API -JSON
+
+GET/users - list all the user 
+
+GET/users/1 - get the user  with ID =1
+
+GET/users/2 - get the user  with ID =2
+
+POST /users – Create new user
+
+PATCH /user/:id – Edit the user with id that is given like 1,2,etc
+
+DELETE /user/:id – Delete the user with the given ID (e.g., 1, 2, etc.)
+
+note for random data generator we use https://www.mockaroo.com/
+

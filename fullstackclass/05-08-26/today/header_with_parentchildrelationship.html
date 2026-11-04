@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background:#f3f6fb;
+            padding: 20px;
+        }
+        /* HEADER */
+        header{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            background:#0b47b7;
+            color:white;
+            padding: 15px 20px;
+            border-radius: 8px 8px 0 0;
+        }
+        .logo{
+            font-size: 24px;
+        }
+        .title{
+            font-size:28px;
+            font-weight: bold;
+        }
+        .profile{
+            font-size:24px;
+        }
+        /* MAIN */
+        main{
+            display:flex;
+            background:white;
+            border:1px solid #dddddd;
+        }
+        /* SIDEBAR*/
+        aside{
+            width:220px;
+            background:#0d2f83;
+            color:white;
+            padding:20px 15px;
+
+        }
+        aside ul{
+            list-style:none;
+        }
+        aside li{
+            margin-bottom:18px;
+            padding:10px;
+            border-radius:6px;
+        }
+        aside li:hover{
+            background:#1b4ed8;
+            cursor:pointer;
+        }
+        section{
+            flex:1;
+            padding:25px;
+        }
+        .dashboard{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:20px;
+
+        }
+        .card{
+            background:white;
+            border-radius:12px;
+            padding:30px 20px;
+            text-align:center;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.12);
+        }
+        .card .icon{
+            font-size:40px;
+            margin-bottom:15px;
+        }
+        .card h3{
+            color: #1d4ed8;
+            margin-bottom:10px;
+        }
+        .card p{
+            color:#666;
+            font-size:14px;
+        }
+        footer{
+            background: #eef2ff;
+            text-align: center;
+            padding:15px;
+            font-size: 14px;
+            color:#444;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
+</head>
+
+
+<body>
+<header>
+    <div class="logo"></div>
+    <div class="title">Student Dashboard</div>
+    <div class="profile"></div>
+</header>
+<main>
+
+    <aside>
+        <ul>
+            <li>Dashboard</li>
+            <li>Students</li>
+            <li>Courses</li>
+            <li>Attendance</li>
+            <li>Results</li>
+            <li>Notices</li>
+            <li>Profile</li>
+        </ul>
+    </aside>
+    <section>
+        <div class="dashboard">
+            <div class="card">
+                <div class="icon"></div>
+                <h3>Students</h3>
+                <p>Manage Student Information</p>
+            </div>
+            <div class="card">
+                <div class="icon"></div>
+                <h3>Courses</h3>
+                <p>View and manage courses</p>
+            </div>
+            <div class="card">
+                <div class="icon"></div>
+                <h3>Attendance</h3>
+                <p>View Attendance Records</p>
+            </div>
+            <div class="card">
+                <div class="icon"></div>
+                <h3>Results</h3>
+                <p>View student Results</p>
+            </div>
+            <div class="card">
+                <div class="icon"></div>
+                <h3>Notices</h3>
+                <p>Check Important Notices</p>
+            </div>
+            <div class="card">
+                <div class="icon"></div>
+                <h3>Profile</h3>
+                <p>View Profile</p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+@ 2026 south asian university. All Rights Reserved.
+</footer>
+</body>
+</html>
