@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> myfirst </title>
+</head>
+<h1> hello world </h1>
+<hr><!-- it is used for separation along with horizontal line -->
+<body>
+     <ul>
+        <li>maggi</li>
+        <li>kurkure</li>
+        <li>chips</li>
+     </ul>
+    <ol>
+        <li>rohit</li>
+        <li>surya </li>
+        <li>rajnath</li>
+    </ol>
+ <!-- note that the difference b/w order and unordered is the meaning difference not the doted and the number it is related the priority -->
+
+ <!-- for the table  -->
+
+ <table>
+    <tr><!-- this for the rows -->
+        <td style="background-color:yellow;color:red;border:2px solid black" >Roll_number</td>
+        <td style="background-color:yellow;color:blue;border:2px solid black">Name</td>
+        <td style="background-color:yellow;color:aqua;border:2px solid black">Room</td>
+    </tr>
+    <tr>
+        <td style="background-color:yellow;color:red;border:2px solid black">1</td>
+        <td style="background-color:yellow;color:blue;border:2px solid black">Rohit</td>
+        <td style="background-color:yellow;color:grey;border:2px solid black">CSE218</td>
+    </tr>
+    <tr>
+        <td style="background-color:yellow;color:red;border:2px solid black">2</td>
+        <td style="background-color:yellow;color:blue;border:2px solid black">Rajnath</td>
+        <td style="background-color:yellow;color:grey;border:2px solid black">CSE219</td>
+    </tr>
+</table>
+<br/>
+<a href="https://www.google.com" target="_main"><img src="https://media.wired.com/photos/5926ffe47034dc5f91bed4e8/3:2/w_2560%2Cc_limit/google-logo.jpg" alt ="google" width="100"></a> <br><br><!-- target is used when we have to redirect to the another page not on the same page -->
+<br/>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, quam consectetur! Eum sunt quaerat quod illo obcaecati laborum error assumenda numquam. Exercitationem sequi, error quaerat vel neque, quisquam voluptates atque unde cupiditate ipsum temporibus hic laudantium nulla quia repellendus voluptatem explicabo qui ea odio ducimus at? Sequi, eius vel? Dolores repellat unde velit, ad, sit sed obcaecati cum ipsa libero magnam aut laboriosam culpa quis, amet pariatur quasi! Debitis eaque dolore dolores nihil similique laudantium provident eum deleniti, tempora voluptate iure excepturi accusamus nesciunt blanditiis voluptatem sed incidunt. Asperiores perspiciatis maiores illum voluptatibus. Molestiae ea, delectus expedita at aspernatur facilis!</p><br>
+<img src="/image.png" alt="code" width="400" height="200"><!-- this for the image render-->
+<br>
+<p>n<sup>2</sup></p><!--for the power sup--><br>
+<p>n<sub>2</sub></p><!--for the base sup-->
+
+<br>
+<!-- creation of the table  -->
+<table>
+    <thead >
+    <caption><h3>Student</h3></caption> <!-- name of the table or name of the table-->
+    <tr>
+        <th style ="border: 2px solid black ;background-color:aqua ; color :red">NAME</th> <!-- note that th is used for the  header of the table row -->
+        <th style ="border: 2px solid black ;background-color:aqua ; color :red">SEX</th>
+        <th style ="border: 2px solid black ;background-color:aqua ; color :red">NUMBER</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>ROHIT</td>
+        <td>MALE</td>
+        <td>630987567849</td>
+    </tr>
+    <tr>
+        <td>SURYA</td>
+        <td>MALE</td>
+        <td>564789365454</td>
+    </tr>
+    <tr>
+        <td>ATUL</td>
+        <td>MALE</td>
+        <td>768594306785</td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<!-- form creation  -->
+ <form actin ="/action.php">
+    <input type="text" placeholder="write your name ">
+    <input type="password" placeholder="write your password ">
+    <!-- creation of radio button it must have the same class because  that helps me to select the select one of them  -->
+    <input type="radio" name="yes" value="yes"  class ="r" id="yes">
+    <label for="yes">yes</label>
+    <!-- note that the for and id should be same so that it calls the same thing -->
+    <input type="radio" name="yes"value="no" class="r" id="no">
+    <label for="no">no</label>
+    <hr>
+    <!-- for selection of multiple option at a time  -->
+    <input type="checkbox" name="subject" id="2">
+    <label for="2">cn</label>
+    <input type="checkbox" name="subject" id="2">
+    <label for="2">maths</label>
+    <hr>
+    <!-- for drop down selection  -->
+     <label for="city">city</label><br>
+    <select name="city" id="city">
+        <option value="gaya">gaya</option>
+        <option value="delhi">delhi</option>
+        <option value="up">up</option>
+    </select>
+    <hr>
+    <textarea name="hello" id="123" placeholder="please write your thoughts here ">feedback</textarea>
+    <hr>
+    <!-- it is used display video of another website and also use to show another website -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=v2AhxnX3CfmME9x8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+
+ </form>
+</body> 
+</html>
